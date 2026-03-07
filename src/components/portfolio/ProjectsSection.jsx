@@ -42,8 +42,8 @@ const projects = [
     title: "Portfolio",
     description: "A personal portfolio website showcasing my projects, skills, and work. It highlights my development journey and provides an interactive way to explore my technical work.",
     tech: ["React", "SMTP", "Node.js"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/anujOparota/Portfolio",
+    demo: "https://portfolio-anuj-parota.vercel.app/",
     image: "/projects/portfolio.webp",
   },
 ];
