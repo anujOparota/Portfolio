@@ -5,6 +5,8 @@ It showcases my projects, skills, and contact information in a clean and respons
 
 ## 🚀 Live Demo
 
+`https://portfolio-anuj-parota.vercel.app/`
+
 ## 📌 Features
 
 - Modern responsive UI
@@ -67,7 +69,6 @@ If you'd like to connect or collaborate, feel free to reach out.
 
 - Email: anujparota@gamil.com
 - LinkedIn: Anuj Parota
-- GitHub: https://github.com/yourusername
 
 ---
 
