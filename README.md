@@ -5,7 +5,7 @@ It showcases my projects, skills, and contact information in a clean and respons
 
 ## 🚀 Live Demo
 
-`https://portfolio-anuj-parota.vercel.app/`
+`https://anujparota.vercel.app/`
 
 ## 📌 Features
 

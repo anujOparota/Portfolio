@@ -23,11 +23,11 @@ const projects = [
     image: "/projects/techsprint.webp",
   },
   {
-    title: "5-bit-xor-cipher",
+    title: "5bit-xor-cipher",
     description: "A simple encryption tool that uses a 5-bit XOR cipher to encode and decode messages. It demonstrates the basic concept of symmetric encryption using bitwise operations.",
-    tech: ["cpp", "STL"],
-    github: "#",
-    demo: "#",
+    tech: ["cpp", "STL", "Xor"],
+    github: "https://github.com/anujOparota/5bit-xor-cipher.git",
+    demo: "https://github.com/anujOparota/5bit-xor-cipher.git",
     image: "/projects/cipher.webp",
   },
   {
@@ -43,7 +43,7 @@ const projects = [
     description: "A personal portfolio website showcasing my projects, skills, and work. It highlights my development journey and provides an interactive way to explore my technical work.",
     tech: ["React", "SMTP", "Node.js"],
     github: "https://github.com/anujOparota/Portfolio",
-    demo: "https://portfolio-anuj-parota.vercel.app/",
+    demo: "https://anujparota.vercel.app/",
     image: "/projects/portfolio.webp",
   },
 ];
