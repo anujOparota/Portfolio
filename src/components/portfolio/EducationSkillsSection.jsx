@@ -3,7 +3,7 @@ import SectionReveal from "./SectionReveal";
 import { StaggerContainer, StaggerItem } from "./StaggerChildren";
 
 const education = [
-  { degree: "Bachelor of Technology", field: "Computer Science & Engineering", school: "Indian Institute of Information Technology, Guwahati", year: "2024 – 2028", gpa: "8.5 / 10" },
+  { degree: "Bachelor of Technology", field: "Computer Science & Engineering", school: "Indian Institute of Information Technology, Guwahati", year: "2024 – 2028", gpa: "8.11 / 10" },
   { degree: "Higher Secondary", field: "Science (PCM)", school: "KVM Sikar", year: "2023 – 2024", gpa: "89%" },
   { degree: "Secondary School", field: "General Studies", school: "NKSS Nasirda", year: "2022", gpa: "91%" },
 ];

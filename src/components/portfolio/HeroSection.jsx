@@ -3,7 +3,7 @@ import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, useReducedMotion } from "framer-motion";
 
-const roles = ["Full Stack Developer", "UI/UX Enthusiast", "Problem Solver", "Tech Explorer"];
+const roles = ["Full Stack Developer", "AI/ML Enthusiast", "UI/UX Enthusiast", "Problem Solver", "Tech Explorer"];
 
 const HeroSection = () => {
   const [roleIndex, setRoleIndex] = useState(0);
