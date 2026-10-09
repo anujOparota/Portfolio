@@ -91,6 +91,23 @@ html {
   scroll-behavior: smooth;
 }
 
+.project-description-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--muted-foreground) / 0.5) transparent;
+}
+
+.project-description-scrollbar::-webkit-scrollbar {
+  width: 3px;
+}
+
+.project-description-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.project-description-scrollbar::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--muted-foreground) / 0.5);
+}
+
 section[id] {
   scroll-margin-top: 5rem; /* matches navbar h-16 + buffer */
 }

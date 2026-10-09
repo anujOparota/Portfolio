@@ -7,12 +7,28 @@ import Tilt from "react-parallax-tilt";
 
 const projects = [
   {
+    title: "Apni Baat-chit",
+    description: "Built a full-stack MERN chat application with one-on-one messaging, image sharing via Cloudinary, and profile avatars, using Zustand for state management.Secured the app with JWT authentication in HTTP-only cookies, bcrypt password hashing, and protected routes on both client and server.Implemented real-time messaging and live online/offline presence using \textbf{Socket.io}, delivering messages instantly to recipients' sockets after saving to MongoDB, with no polling.",
+    tech: ["React", "Node.js", "Express", "MongoDB", "Socket.io"],
+    github: "https://github.com/anujOparota/Apni-Baat-chit",
+    demo: "https://apni-baat-chit.onrender.com/",
+    image: "/projects/Apni_Baat_Chit.webp",
+  },
+  {
     title: "The_school_web",
-    description: "A responsive website designed for a school to present information about academics, facilities, and announcements. It provides an organized and user-friendly platform for students, parents, and staff.",
+    description: "Developed and deployed a full-stack responsive website for my former school, currently used by them with 300+ active students and supporting parent sign-up and onboarding.",
     tech: ["React", "Node.js", "firebase"],
     github: "https://github.com/anujOparota/The_School_Web",
     demo: "https://github.com/anujOparota/The_School_Web",
     image: "/projects/schoolweb.webp",
+  },
+  {
+    title: "EstateX",
+    description: "A full-stack real estate platform with role-based dashboards for Admins, Agents, Owners, and Buyers. Build as a Group Project for DBMS course in 2nd year with 3 of my Batchmates.",
+    tech: ["React", "SpringBoot", "Java", "MySql", "JWT", "REST APIs"],
+    github: "https://github.com/anujOparota/EstateX",
+    demo: "https://github.com/anujOparota/EstateX",
+    image: "/projects/EstateX.webp",
   },
   {
     title: "TechSprint",
@@ -31,20 +47,20 @@ const projects = [
     image: "/projects/cipher.webp",
   },
   {
-    title: "Inventory-manager",
-    description: "A simple and efficient inventory tracking system built in C — perfect for contractors, small businesses, and hands-on project managers.",
-    tech: ["c", "structure", "file handling"],
-    github: "https://github.com/anujOparota/inventory-manager",
-    demo: "https://github.com/anujOparota/inventory-manager",
-    image: "/projects/inventory.webp",
-  },
-  {
     title: "Portfolio",
     description: "A personal portfolio website showcasing my projects, skills, and work. It highlights my development journey and provides an interactive way to explore my technical work.",
     tech: ["React", "SMTP", "Node.js"],
     github: "https://github.com/anujOparota/Portfolio",
     demo: "https://anujparota.vercel.app/",
     image: "/projects/portfolio.webp",
+  },
+  {
+    title: "Inventory-manager",
+    description: "A simple and efficient inventory tracking system built in C — perfect for contractors, small businesses, and hands-on project managers.",
+    tech: ["c", "structure", "file handling"],
+    github: "https://github.com/anujOparota/inventory-manager",
+    demo: "https://github.com/anujOparota/inventory-manager",
+    image: "/projects/inventory.webp",
   },
 ];
 
@@ -96,7 +112,7 @@ const ProjectsSection = () => {
                 <h3 className="font-display text-lg font-semibold text-foreground mb-2">
                   {project.title}
                 </h3>
-                <p className="text-muted-foreground text-sm leading-relaxed mb-4 flex-1">
+                <p className="project-description-scrollbar text-muted-foreground text-sm leading-relaxed mb-4 h-24 overflow-y-auto">
                   {project.description}
                 </p>
 
